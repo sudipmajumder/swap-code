@@ -1,0 +1,16 @@
+# swap-code
+C programm to swap data between 2 numbers.
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int x,y;
+printf("Before Swap \n X=20\n Y=10\n");
+x=20;
+y=10;
+x=x+y;
+y=x-y;
+x=x-y;
+printf("After Swap \n X=%d\t Y=%d"y,x);
+getch();
+}
